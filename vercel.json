@@ -1,0 +1,10 @@
+
+{
+  "version": 2,
+  "builds": [
+    { "src": "apps/convx/pages/index.tsx", "use": "@vercel/next" }
+  ],
+  "routes": [
+    { "src": "/", "dest": "apps/convx/pages/index.tsx" }
+  ]
+}
